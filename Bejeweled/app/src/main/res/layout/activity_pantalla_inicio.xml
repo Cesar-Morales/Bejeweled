@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pantallaInicio">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundgame2">
+        <ImageView
+            android:id="@+id/imgCambiante1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bejeweledimagen"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80sp"/>
+        <ImageView
+            android:id="@+id/imgCambiante"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/logo2"
+            android:layout_below="@id/imgCambiante1"/>
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/NuevoJ"
+            android:id="@+id/btn1"
+            android:layout_below="@+id/imgCambiante"
+            android:onClick="onClickNJ"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:id="@+id/btn2"
+            android:layout_below="@id/btn1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/top10"
+            android:onClick="onClickR"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn2"
+            android:onClick="onClickSalir"
+            android:text="@string/Salir" />
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

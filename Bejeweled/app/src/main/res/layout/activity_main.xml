@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/backgroundgame2">
+
+
+
+    <ImageView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bejeweledimagen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30sp"
+        />
+
+
+
+
+
+    <ImageView
+        android:id="@+id/scoreTxt"
+        android:layout_below="@id/gridlayout"
+        android:layout_width="50sp"
+        android:layout_height="42sp"
+        android:layout_toStartOf="@+id/score"
+        android:background="@drawable/coins"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/score"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cero"
+        android:layout_below="@id/gridlayout"
+        android:textColor="@color/colorWhite"
+        android:textSize="31sp"
+        android:layout_alignParentEnd="true"
+        />
+
+
+
+    <GridLayout
+        android:layout_below="@id/txt1"
+        android:background="@color/colorDark"
+        android:id="@+id/gridlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="1dp"
+        android:rowCount="8"
+        android:columnCount="8">
+    </GridLayout>
+    <!--
+        score icon
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"-->
+
+
+    <!--  es parte del score
+           android:layout_marginBottom="10dp"
+           android:layout_alignParentBottom="true"-->
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_below="@id/scoreTxt"
+        android:onClick="onClikTerminar"
+        android:background="@drawable/back"
+        android:layout_marginStart="40sp"
+        android:layout_marginTop="30sp"
+        />
+
+
+    <Button
+        android:layout_marginTop="20sp"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:background="@drawable/cerrar"
+        android:layout_below="@id/scoreTxt"
+        android:id="@+id/btncerrar"
+        android:onClick="onClickVerificarPuntaje"
+        android:layout_marginEnd="40dp"
+        android:layout_alignParentEnd="true"/>
+
+
+    <Button
+        android:layout_marginTop="30sp"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:background="@drawable/refresh"
+        android:onClick="onClickRefesh"
+        android:layout_below="@id/scoreTxt"
+        android:id="@+id/btnRefresh"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
+
+
+
+    <!--<TextView
+        android:id="@+id/txtbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Click"
+        android:layout_above="@id/btn1"
+        android:textSize="30dp"/>
+    <TextView
+        android:id="@+id/txtbtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SecondClick"
+        android:layout_above="@id/btn2"
+        android:layout_alignParentRight="true"
+        android:textSize="30dp"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Restart Life"
+        android:onClick="restartLife"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="randomGem"
+        android:text="Random"
+        />-->

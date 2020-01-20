@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IngresaNombre">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundgame2"
+        >
+        <TextView
+            android:layout_marginTop="20sp"
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp"
+            android:text="Ingrese su nombre"
+            android:textAlignment="center"
+            />
+        <EditText
+            android:layout_below="@id/txtname"
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ej: Pepito"
+            android:textSize="30sp"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"/>
+        <Button
+            android:id="@+id/volver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nombre"
+            android:text="volver"
+            android:onClick="volver"/>
+        <Button
+            android:id="@+id/guardar"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nombre"
+            android:text="Guardar"
+            android:onClick="guardar"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

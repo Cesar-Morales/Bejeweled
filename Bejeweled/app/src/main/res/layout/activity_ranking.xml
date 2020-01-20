@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgame2"
+    tools:context=".Ranking">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginTop="40dp"
+            android:text="Puntajes"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:layout_marginTop="10sp"
+            android:layout_below="@id/txt"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite" />
+        <TextView
+            android:layout_below="@id/txt1"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite" />
+        <TextView
+
+            android:layout_below="@id/txt2"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:id="@+id/txt3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite" />
+        <TextView
+            android:textAlignment="center"
+            android:layout_below="@id/txt3"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite" />
+        <TextView
+            android:textAlignment="center"
+            android:layout_below="@id/txt4"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite" />
+        <TextView
+            android:layout_below="@id/txt5"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:layout_below="@id/txt6"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt7"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite" />
+        <TextView
+            android:textAlignment="center"
+            android:layout_below="@id/txt7"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt8"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite" />
+        <TextView
+            android:textAlignment="center"
+            android:layout_below="@id/txt8"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt9"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite" />
+        <TextView
+            android:textAlignment="center"
+            android:layout_below="@id/txt9"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/txt10"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/colorWhite" />
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_below="@id/txt9"
+            android:onClick="onClikTerminar"
+            android:background="@drawable/back"
+            android:layout_marginStart="40sp"
+            android:layout_marginTop="40sp"
+            />
+        <Button
+            android:id="@+id/btnComp"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_below="@id/txt9"
+            android:onClick="onClickCompartir"
+            android:background="@drawable/share"
+            android:layout_marginEnd="40sp"
+            android:layout_marginTop="40sp"
+            android:layout_alignParentRight="true"
+            />
+
+
+    </RelativeLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

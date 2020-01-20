@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bejeweled </string>
+    <string name="title">Bejeweled</string>
+    <string name="score">Score:</string>
+    <string name="cero">0</string>
+    <string name="NuevoJ">New Game</string>
+    <string name="top10">Ranking</string>
+    <string name="Refrescar">Refresh</string>
+    <string name="Terminar">Finish</string>
+    <string name="Salir">Exit</string>
+</resources>
