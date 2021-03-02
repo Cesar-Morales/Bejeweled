@@ -14,7 +14,6 @@ Android Studio --> Java, XML, SQLite
 ![INGAME](https://raw.githubusercontent.com/Cesar-Morales/Bejeweled/master/game.png)
 
 
-### In the future:
-  * REFACTORING (A LOT)
-  * FIRST ANDROID PROJECT
-  * DO IT IN REACT NATIVE
+### TODO:
+  * REFACTORING
+  * MIGRATE TO REACT NATIVE
